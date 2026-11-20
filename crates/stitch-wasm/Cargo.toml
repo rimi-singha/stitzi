@@ -1,0 +1,15 @@
+[package]
+name = "stitch-wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+stitch-geom.workspace = true
+stitch-color.workspace = true
+stitch-engine.workspace = true
+stitch-formats.workspace = true
+stitch-trace.workspace = true

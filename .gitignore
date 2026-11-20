@@ -1,0 +1,12 @@
+# Dependencies & build outputs
+node_modules/
+web/node_modules/
+web/dist/
+target/
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Internal planning & architecture docs (excluded from repository)
+docs/

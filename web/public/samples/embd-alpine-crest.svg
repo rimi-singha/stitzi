@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- Embd Studio Showcase Patch: Alpine Sunrise Crest (Clean Embroidery-Ready Layers) -->
+  <!-- 1. Deep Navy Shield Base (Tatami Fill) -->
+  <path id="Shield Base" fill="#172554" d="M 100 12 L 178 40 L 178 118 C 178 164 142 194 100 208 C 58 194 22 164 22 118 L 22 40 Z" />
+
+  <!-- 2. Golden Sun Disc (Tatami / Gradient Fill) -->
+  <circle id="Sunrise Disc" cx="100" cy="84" r="34" fill="#F59E0B" />
+
+  <!-- 3. Warm Coral Horizon Glow (Accent Layer) -->
+  <path id="Horizon Glow" fill="#EC4899" d="M 32 118 C 60 104 140 104 168 118 L 166 134 C 138 148 62 148 34 134 Z" />
+
+  <!-- 4. Far Mountain Ridge (Cobalt Blue Fill) -->
+  <path id="Cobalt Ridge" fill="#0D99FF" d="M 28 124 L 66 74 L 102 112 L 138 66 L 172 124 L 164 152 C 140 176 120 190 100 198 C 80 190 60 176 36 152 Z" />
+
+  <!-- 5. Foreground Summit Peak (Deep Teal Fill) -->
+  <path id="Alpine Peak" fill="#0D9488" d="M 44 156 L 100 84 L 156 156 C 138 178 118 190 100 198 C 82 190 62 178 44 156 Z" />
+
+  <!-- 6. Crisp Snow Cap (Pure White Fill) -->
+  <path id="Snow Cap" fill="#FFFFFF" d="M 100 84 L 118 108 L 108 104 L 100 113 L 92 104 L 82 108 Z" />
+
+  <!-- 7. Left & Right Star Accents (Yellow Gold Fill) -->
+  <polygon id="North Star" fill="#FFE600" points="100,26 104,35 114,36 106,42 109,52 100,46 91,52 94,42 86,36 96,35" />
+
+  <!-- 8. Crisp Gold Satin Border Frame (Satin Stroke) -->
+  <path id="Gold Satin Rim" fill="none" stroke="#F59E0B" stroke-width="5.5" d="M 100 12 L 178 40 L 178 118 C 178 164 142 194 100 208 C 58 194 22 164 22 118 L 22 40 Z" />
+
+  <!-- 9. Inner Stitch Accent Line (White Bean Run) -->
+  <path id="Inner Stitch Line" fill="none" stroke="#FFFFFF" stroke-width="1.6" d="M 100 20 L 170 45 L 170 117 C 170 158 137 186 100 199 C 63 186 30 158 30 117 L 30 45 Z" />
+</svg>

@@ -1,0 +1,10 @@
+[package]
+name = "stitch-formats"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+stitch-color.workspace = true
+stitch-engine.workspace = true
+stitch-geom.workspace = true

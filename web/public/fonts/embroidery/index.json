@@ -1,0 +1,76 @@
+{
+  "fonts": [
+    {
+      "id": "block-satin",
+      "name": "Block Satin Pro",
+      "description": "Clean hand-digitized block satin columns (8–35 mm)",
+      "license": "SIL OFL 1.1",
+      "minMm": 8,
+      "maxMm": 35,
+      "direction": "ltr",
+      "multicolor": false,
+      "chunkUrl": "/fonts/embroidery/block-satin/glyphs.json.gz",
+      "bytesGz": 1906
+    },
+    {
+      "id": "tiny-micro",
+      "name": "Micro 4mm Block",
+      "description": "Crisp running/bean micro font for tiny 4–12 mm cap & pocket text",
+      "license": "Public Domain (CC0)",
+      "minMm": 4,
+      "maxMm": 12,
+      "direction": "ltr",
+      "multicolor": false,
+      "chunkUrl": "/fonts/embroidery/tiny-micro/glyphs.json.gz",
+      "bytesGz": 2013
+    },
+    {
+      "id": "script-elegance",
+      "name": "Script Elegance",
+      "description": "Slanted cursive satin script (12–40 mm)",
+      "license": "SIL OFL 1.1",
+      "minMm": 12,
+      "maxMm": 40,
+      "direction": "ltr",
+      "multicolor": false,
+      "chunkUrl": "/fonts/embroidery/script-elegance/glyphs.json.gz",
+      "bytesGz": 2312
+    },
+    {
+      "id": "varsity-multi",
+      "name": "Varsity Multicolor",
+      "description": "Two-color athletic satin font with contrasting inner accent",
+      "license": "CC BY 4.0",
+      "minMm": 15,
+      "maxMm": 50,
+      "direction": "ltr",
+      "multicolor": true,
+      "chunkUrl": "/fonts/embroidery/varsity-multi/glyphs.json.gz",
+      "bytesGz": 2028
+    },
+    {
+      "id": "serif-classic",
+      "name": "Classic Serif Satin",
+      "description": "Refined narrow serif satin columns (10–38 mm)",
+      "license": "SIL OFL 1.1",
+      "minMm": 10,
+      "maxMm": 38,
+      "direction": "ltr",
+      "multicolor": false,
+      "chunkUrl": "/fonts/embroidery/serif-classic/glyphs.json.gz",
+      "bytesGz": 2012
+    },
+    {
+      "id": "shalom-rtl",
+      "name": "Shalom Satin (RTL)",
+      "description": "Right-to-left pre-digitized Hebrew + Latin satin font",
+      "license": "SIL OFL 1.1",
+      "minMm": 10,
+      "maxMm": 32,
+      "direction": "rtl",
+      "multicolor": false,
+      "chunkUrl": "/fonts/embroidery/shalom-rtl/glyphs.json.gz",
+      "bytesGz": 1907
+    }
+  ]
+}

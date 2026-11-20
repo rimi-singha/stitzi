@@ -1,0 +1,28 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/stitch-geom",
+    "crates/stitch-color",
+    "crates/stitch-engine",
+    "crates/stitch-trace",
+    "crates/stitch-formats",
+    "crates/stitch-wasm",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+stitch-geom = { path = "crates/stitch-geom" }
+stitch-color = { path = "crates/stitch-color" }
+stitch-engine = { path = "crates/stitch-engine" }
+stitch-trace = { path = "crates/stitch-trace" }
+stitch-formats = { path = "crates/stitch-formats" }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

@@ -1,0 +1,15 @@
+{
+  "name": "embd-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "wasm": "node scripts/build-wasm.mjs",
+    "dev": "npm --prefix web run dev",
+    "build": "npm run wasm && npm --prefix web run build",
+    "test:rust": "cargo test --workspace",
+    "check:rust": "cargo check --workspace --target wasm32-unknown-unknown",
+    "test:wasm": "node --test scripts/verify-wasm.mjs",
+    "test:web": "npm --prefix web run test",
+    "test": "npm run check:rust && npm run wasm && npm run test:wasm && npm run test:web"
+  }
+}
