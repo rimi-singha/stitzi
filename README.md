@@ -1,6 +1,6 @@
-# Embd Studio
+# Stitzi
 
-**Embd Studio** is a high-performance, browser-native machine embroidery digitizer built on a pure **Rust → WebAssembly** stitch engine, a zero-copy **Web Worker** pipeline, and an instanced **WebGL2** 3D stitch renderer.
+**Stitzi** is a high-performance, browser-native machine embroidery digitizer built on a pure **Rust → WebAssembly** stitch engine, a zero-copy **Web Worker** pipeline, and an instanced **WebGL2** 3D stitch renderer.
 
 Design vectors at 120 FPS, import SVGs or raster artwork, typeset pre-digitized or TrueType fonts, simulate realistic 3D thread sheen on fabric, run automated pre-flight checks, and export sew-ready machine files directly from the browser — with zero cloud uploads and zero accuracy loss (`0.1 mm` machine precision).
 
@@ -59,7 +59,7 @@ Design vectors at 120 FPS, import SVGs or raster artwork, typeset pre-digitized 
 ## Project Structure
 
 ```text
-embd/
+stitzi/
 ├── Cargo.toml                     # Rust workspace root (zero build-script deps)
 ├── package.json                   # Root workspace scripts
 ├── crates/
@@ -148,7 +148,7 @@ Deploy the **`web/dist/`** directory to any static host or CDN.
 
 **Important server header notes:**
 - Serve `.wasm` files with `Content-Type: application/wasm`.
-- Static assets under `web/dist/fonts/embroidery/*/*.json.gz` are pre-gzipped JSON chunks. Embd Studio automatically detects gzip magic bytes (`0x1F 0x8B`), so it works whether your host serves `.json.gz` raw or with `Content-Encoding: gzip`.
+- Static assets under `web/dist/fonts/embroidery/*/*.json.gz` are pre-gzipped JSON chunks. Stitzi automatically detects gzip magic bytes (`0x1F 0x8B`), so it works whether your host serves `.json.gz` raw or with `Content-Encoding: gzip`.
 - All computation runs 100% client-side in WebAssembly + WebGL2 — **no backend server, database, or API keys are required**.
 
 #### Example `Dockerfile` (Nginx Static Package)
